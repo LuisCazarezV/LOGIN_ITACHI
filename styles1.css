@@ -1,0 +1,171 @@
+.body-luis {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #dd3e54, #6be585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login-card-luis {
+    width: 87em;
+    height: 580px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 40px;
+    position: center;
+}
+
+.login-card-container-luis h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 8vh;
+    font-size: 35px;
+    color: white;
+}
+
+.login-card-luis {
+    width: 87em;
+    height: 580px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 40px;
+    position: center;
+}
+
+.login-card-container-luis h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 8vh;
+    font-size: 35px;
+    color: white;
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+}
+
+.body-luis {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-card-luis {
+    width: 1350px;
+    height: 140rem;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    padding: 3rem;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.login-card-header-luis h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 45px;
+
+}
+
+
+.fotobonita1 {
+    position: relative;
+    left: 40px;
+    width: 480px;
+    height: 400px;
+
+}
+
+.fotobonita2 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 410px;
+    margin-left: 770px;
+    right: 50px;
+
+}
+
+.fotobonita3 {
+    position: relative;
+    left: 40px;
+    width: 480px;
+    height: 400px;
+    bottom: 300px;
+
+}
+
+.fotobonita4 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 708px;
+    margin-left: 770px;
+    right: 50px;
+
+
+}
+
+.fotobonita5 {
+    position: relative;
+    left: 40px;
+    bottom: 600px;
+    width: 480px;
+    height: 400px;
+
+}
+
+.fotobonita6 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 1010px;
+    margin-left: 770px;
+    right: 50px;
+
+}
+
+.fotobonita7 {
+    position: relative;
+    left: 40px;
+    bottom: 901px;
+    width: 480px;
+    height: 400px;
+
+}
+
+.fotobonita8 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 1309px;
+    margin-left: 770px;
+    right: 50px;
+
+}
+
+#corazon {
+    position: relative;
+    top: 90px;
+    left: 110px;
+
+}
+
+#corazon1 {
+    position: relative;
+    top: 600px;
+    left: 56px;
+}
+
+#corazon2 {
+    position: relative;
+    top: 1115px;
+    left: 5px;
+}
