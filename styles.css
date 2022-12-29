@@ -12,12 +12,13 @@ body {
 }
 
 .login-card {
-    width: 440px;
-    height: 35rem;
+    width: 430px;
+    height: 34rem;
     background: rgba(255, 255, 255, .3);
     padding: 4rem;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 120px;
 }
 
 .login-card img {
@@ -88,8 +89,8 @@ body {
 }
 
 .login-card-footer {
-    margin-top: 0.9rem;
-    padding-left: 60px;
+    margin-left: -10px;
+    margin-right: -300px;
     font-size: calc(1rem*.8);
 }
 
@@ -107,16 +108,16 @@ body {
 
 .login-card input[type="text"]:valid,
 .login-card input[type="password"]:valid,
-.login-card input[type="text"]:focus, 
+.login-card input[type="text"]:focus,
 .login-card input[type="password"]:focus {
     background: rgb(255, 255, 255, .7);
 
 }
 
-.login-card input[type="text"]:valid ~ .label,
-.login-card input[type="password"]:valid  ~ .label,
-.login-card input[type="text"]:focus ~ .label,
-.login-card input[type="password"]:focus ~ .label {
+.login-card input[type="text"]:valid~.label,
+.login-card input[type="password"]:valid~.label,
+.login-card input[type="text"]:focus~.label,
+.login-card input[type="password"]:focus~.label {
     color: #000000;
     transform: translate(12px, -12px);
     font-size: 0.8em;
@@ -144,6 +145,7 @@ body {
     border-radius: 50px;
     cursor: pointer;
     font-weight: 750;
+
 
 
 }
@@ -182,15 +184,12 @@ body {
 
 }
 
-
-
-
 .instagram-logo {
     background: linear-gradient(to right, #833ab4, #fd1d1d9e, #fcb045);
 }
 
 .twitter-logo {
-    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    background: rgba(24, 115, 235)
 }
 
 .login-card-social-btn a:hover {
@@ -222,11 +221,9 @@ h2 {
 
 }
 
-
 .body-luis {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right, #8360c3, #2ebf91);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,14 +232,120 @@ h2 {
 
 .login-card-luis {
     width: 1350px;
-    height: 36rem;
-    background: rgba(255, 255, 255, .3);
-    padding: 4rem;
+    height: 140rem;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+    padding: 3rem;
     border-radius: 20px;
     position: relative;
+
+}
+
+.login-card-header-luis h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 45px;
+
 }
 
 input[type=checkbox] {
     width: 16px;
     height: 16px;
+}
+
+
+
+.fotobonita1 {
+    position: relative;
+    left: 40px;
+    width: 480px;
+    height: 400px;
+
+}
+
+.fotobonita2 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 410px;
+    margin-left: 770px;
+    right: 50px;
+
+}
+
+.fotobonita3 {
+    position: relative;
+    left: 40px;
+    width: 480px;
+    height: 400px;
+    bottom: 300px;
+
+}
+
+.fotobonita4 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 708px;
+    margin-left: 770px;
+    right: 50px;
+
+
+}
+
+.fotobonita5 {
+    position: relative;
+    left: 40px;
+    bottom: 600px;
+    width: 480px;
+    height: 400px;
+
+}
+
+.fotobonita6 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 1010px;
+    margin-left: 770px;
+    right: 50px;    
+
+}
+
+.fotobonita7 {
+    position: relative;
+    left: 40px;
+    bottom: 901px;
+    width: 480px;
+    height: 400px;   
+
+}
+
+.fotobonita8 {
+    position: relative;
+    width: 480px;
+    height: 400px;
+    bottom: 1309px;
+    margin-left: 770px;
+    right: 50px;    
+
+}
+
+#corazon  {
+    position: relative;
+    top: 90px;
+    left: 110px;
+
+}
+
+#corazon1 {
+    position: relative;
+    top: 600px;
+    left: 56px;
+}
+
+#corazon2 {
+    position: relative;
+    top: 1115px;
+    left: 5px;
 }
