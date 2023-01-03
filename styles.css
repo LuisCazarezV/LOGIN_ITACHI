@@ -4,11 +4,24 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    min-height: 75vh;
     background: linear-gradient(to right, #8360c3, #2ebf91);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+    
+
+
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
 }
 
 .login-card {
@@ -19,6 +32,14 @@ body {
     border-radius: 20px;
     position: relative;
     margin-bottom: 120px;
+    box-shadow: 10px -10px 150px #f20044;
+
+    
+}
+
+.login-card-container {
+    position: relative;
+    top: 0.4rem;
 }
 
 .login-card img {
@@ -124,28 +145,22 @@ body {
     top: -6px;
 }
 
-
-.custombutton button {
-    width: 100%;
-    background: linear-gradient(to right, rgba(147, 197, 202, 0), #714d7c);
-    color: black !important;
-    font-size: 18px;
-    cursor: text
+.wrapper {
+    bottom: 25px;
+    position: relative;
 }
 
 .login-card-form button {
     font-style: normal;
     margin-bottom: 50px;
     width: 100%;
-    background: linear-gradient(to right, #4458af, #c92c829e, #571892);
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #ffffff !important;
     padding: 14px 0;
     font-size: 18px;
     border-radius: 50px;
     cursor: pointer;
     font-weight: 750;
-
-
 
 }
 
@@ -208,3 +223,82 @@ input[type=checkbox] {
     width: 16px;
     height: 16px;
 }
+
+.wrapper:hover button {
+    background: linear-gradient(to right, #f64f59, #12c2e9, #c471ed);
+    opacity: 1;
+
+}
+
+.checkbox-wrapper-2 .ikxBAC {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC,
+  .checkbox-wrapper-2 .ikxBAC::after {
+    transition: all 100ms ease-out;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .checkbox-wrapper-2 input[type=checkbox] {
+    cursor: default;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked {
+    background-color: #6e79d6;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked::after {
+    background-color: #fff;
+    left: 13px;
+  }
+
+  .checkbox-wrapper-2 :focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked:hover {
+    background-color: #535db3;
+  }
+
+  .checkbox h1 {
+    position: relative;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    right: 50px;
+    left: 70px;
+    bottom: 15px;
+    font-size: 15px;
+  }
