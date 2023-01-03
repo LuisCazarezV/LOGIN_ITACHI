@@ -347,7 +347,6 @@ h2 {
   text-decoration: none;
   border-radius: 20px;
   background: linear-gradient(to right, #dcdf0d, #0eb419);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: all 0.5s;
   webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -392,7 +391,6 @@ h2 {
 
 .button:hover {
   background: linear-gradient(to right, #00f260, #0575e6);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-right: 20px;
 }
 
